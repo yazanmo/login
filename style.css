@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #FA8072
+}
+
+section {
+    position: relative;
+    width: 75%;
+    display: flex;
+    margin: auto;
+    height: 85vh;
+    top: 58px;
+    background: #fff
+}
+
+section .img-box {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+section .img-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .content-box .form {
+    width: 50%;
+}
+
+section .content-box .form h2 {
+    color: #FA8072;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .content-box .form .ipt {
+    margin-bottom: 20px
+}
+
+section .content-box .form .ipt input {
+    width: 100%;
+    height: 35px;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    background: #F1F1F1;
+    border: 1px solid #F1F1F1;
+}
+
+section .content-box .form .ipt input[type="submit"] {
+    width: 111%;
+    background: #FA8072;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+section .content-box .form .remember {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section .content-box .form .ipt p {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section .content-box .form .ipt span {
+    color: #FA8072;
+}
